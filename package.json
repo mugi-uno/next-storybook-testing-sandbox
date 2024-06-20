@@ -1,4 +1,15 @@
 {
+  "imports": {
+    "#app/api": {
+      "storybook": "./src/app/api.mock.ts",
+      "default": "./src/app/api.ts"
+    },
+    "#*": [
+      "./*",
+      "./*.ts",
+      "./*.tsx"
+    ]
+  },
   "name": "next-storybook-testing-sandbox",
   "version": "0.1.0",
   "private": true,
